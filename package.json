@@ -12,6 +12,7 @@
   "author": "abuzerexe",
   "license": "ISC",
   "dependencies": {
+    "esbuild": "^0.25.4",
     "@types/ws": "^8.18.1",
     "nanoid": "^5.1.5",
     "ws": "^8.18.2"
