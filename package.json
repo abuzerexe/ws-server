@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "esbuild src/index.ts --platform=node --bundle --outdir=dist",
+    "build": "esbuild src/index.ts --platform=node --bundle --outdir=dist  --external:ws",
     "dev" : "esbuild src/index.ts --platform=node --bundle --outdir=dist && node dist/index.js",
     "start": "node dist/index.js"
   },
