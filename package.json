@@ -1,0 +1,22 @@
+{
+  "name": "ws-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "esbuild src/index.ts --platform=node --bundle --outdir=dist",
+    "dev" : "esbuild src/index.ts --platform=node --bundle --outdir=dist && node dist/index.js",
+    "start": "node dist/index.js"
+  },
+  "keywords": [],
+  "author": "abuzerexe",
+  "license": "ISC",
+  "dependencies": {
+    "@types/ws": "^8.18.1",
+    "nanoid": "^5.1.5",
+    "ws": "^8.18.2"
+  },
+  "engines": {
+    "node": "22.13.1"
+  }
+}

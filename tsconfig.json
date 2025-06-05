@@ -1,0 +1,10 @@
+{
+
+  "compilerOptions": {
+    "lib": ["es2022"],
+    "rootDir": "./src",
+    "outDir": "./dist"
+  },
+  "exclude": ["node_modules"],
+  "include": ["."]
+}
